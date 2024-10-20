@@ -11,6 +11,7 @@ section > h1{
     position: relative;
     top: 5vh;
     left: 5vw;
+    width: fit-content;
 }
 
 section > h3{
@@ -19,6 +20,7 @@ section > h3{
     position: relative;
     top: 3vh;
     left: 7vw;
+    width: fit-content;
 }
 
 section > pre{
@@ -26,5 +28,6 @@ section > pre{
     font-size: 25px;
     position: relative;
     top: 40vh;
-    left: 20vw;  
+    left: 20vw;
+    width: fit-content;  
 }
