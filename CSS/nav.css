@@ -45,3 +45,103 @@ nav > h2{
 nav > h2 > span{
     font-size: x-large;
 }
+
+.firstSection{
+    width: 100%;
+    /* SET HEIGHT TO 25vh TO DEPLOY FIRST MENU, AND 100vh TO DEPLOY ALL THE MENU */
+    height: 0vh;
+    background: linear-gradient(90deg, #0a4218, #3ac800);
+    border-top: #ffc804 2px solid;
+    display: none;
+}
+
+.firstSection > ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    height: 6vh;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 5%;
+    margin-top: 2vh;
+}
+
+.firstSection > ul > li{
+    color: #fff;
+    font-size: 30px;
+    font-family: "Chau Philomene One", sans-serif;
+    transition: all 0.3s;
+}
+
+.firstSection > ul > li:hover{
+    transform: scale(1.1);
+    transition: all 0.3s;
+    background-color: rgba(212, 212, 212, 0.3);
+    border-radius: 25px;
+    padding: 2px 25px;
+}
+
+/* Terminar de disenar el menu de las escuelas */
+
+.schools-menu{
+    background-image: url(/IMG/bg-secondarymenu.webp);
+    width: 70vw;
+    height: 65vh;
+    border-radius: 100px;
+    position: absolute;
+    top: 20vh;
+    left: 10vw;
+    /* CHANGE TO GRID TO DEPLOY MENU */
+    display: none;
+    grid-template-columns: 2;
+    grid-template-rows: 2;
+}
+
+.schools-menu > .school{
+    align-self: center;
+    justify-self: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.schools-menu > .school > img{
+    width: 75px;
+    height: 75px;
+}
+
+.schools-menu > .school > .school-data > h4{
+    font-weight: bold;
+    font-size: 35px;
+    transition: all 0.5s;
+}
+
+.schools-menu > .school:hover > .school-data > h4{ 
+    color: #fff;
+    text-decoration: overline;
+    transition: all 0.3s;
+}
+
+.schools-menu > .school > .school-data > p{
+    font-size: large;
+}
+
+.schools-menu > #one{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.schools-menu > #two{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.schools-menu > #one{
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.schools-menu > #one{
+    grid-column: 2;
+    grid-row: 2;
+}

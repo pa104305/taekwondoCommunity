@@ -1,0 +1,17 @@
+@keyframes partial_deploy {
+    0%{
+        height: 0%;
+    }
+    100%{
+        height: 10vh;
+    }
+}
+
+@keyframes total_deploy {
+    0%{
+        height: 15vh
+    }
+    100%{
+        height: 100vh;
+    }
+}

@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tae Kwon Do - HOME</title>
-    <link rel="stylesheet" href="https://pa104305.github.io/taekwondoCommunity/CSS/style.css">
-    <link rel="stylesheet" href="https://pa104305.github.io/taekwondoCommunity/CSS/nav.css">
-    <link rel="stylesheet" href="https://pa104305.github.io/taekwondoCommunity/CSS/carrousel.css">
+    <!--https://pa104305.github.io/taekwondoCommunity/-->
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/social.css">
+    <link rel="stylesheet" href="CSS/nav.css">
+    <link rel="stylesheet" href="CSS/carrousel.css">
+    <link rel="stylesheet" href="CSS/animations.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Chau+Philomene+One:ital@0;1&display=swap" rel="stylesheet">
@@ -16,11 +19,78 @@
     <nav>
         <ul>
             <li><a href="">Home</a></li>
-            <li><a href="">Schools</a></li>
+            <li id="school-btn"><a>Schools</a></li>
             <li><a href="">Resources</a></li>
         </ul>
         <h2>TAE KWON DO <br> <span>Community</span></h2>
     </nav>
+    <div class="firstSection" id="firstSection">
+        <ul>
+            <li id="school-menu-btn">School</li>
+            <li id="exams-menu-btn">Exams</li>
+            <li>Competecies</li>
+        </ul>
+    </div>
+    <div class="schools-menu" id="schools-menu">
+        <div class="school" id="one">
+            <img src="" alt="Vamp-School">
+            <div class="school-data">
+                <h4>Vampiros</h4>
+                <p>Sbn. Alfredo Flores 6*Dan</p>
+            </div>
+        </div>
+        <div class="school" id="two">
+            <img src="" alt="Buho-School">
+            <div class="school-data">
+                <h4>Buhos</h4>
+                <p>Sbn. Juan Jose E. 4*Dan</p>
+            </div>
+        </div>
+        <div class="school" id="three">
+            <img src="" alt="Pant-School">
+            <div class="school-data">
+                <h4>Panteras</h4>
+                <p>Sbn. Luis Lopez 4*Dan</p>
+            </div>
+        </div>
+        <div class="school" id="four">
+            <img src="" alt="Rino-School">
+            <div class="school-data">
+                <h4>Rinos</h4>
+                <p>Sbn. Gaby 3*Dan</p>
+            </div>
+        </div>
+    </div>
+    <div class="schools-menu" id="exams-menu">
+        <div class="school" id="one">
+            <img src="" alt="Vamp-School">
+            <div class="school-data">
+                <h4>Vampiros</h4>
+                <p>Sbn. Alfredo Flores 6*Dan</p>
+            </div>
+        </div>
+        <div class="school" id="two">
+            <img src="" alt="Buho-School">
+            <div class="school-data">
+                <h4>Buhos</h4>
+                <p>Sbn. Juan Jose E. 4*Dan</p>
+            </div>
+        </div>
+        <div class="school" id="three">
+            <img src="" alt="Pant-School">
+            <div class="school-data">
+                <h4>Panteras</h4>
+                <p>Sbn. Luis Lopez 4*Dan</p>
+            </div>
+        </div>
+        <div class="school" id="four">
+            <img src="" alt="Rino-School">
+            <div class="school-data">
+                <h4>Rinos</h4>
+                <p>Sbn. Gaby 3*Dan</p>
+            </div>
+        </div>
+    </div>
     <section>
         <h1>TAE KWON DO</h1>
         <h3>Formando Jovenes Con Valores</h3>
@@ -30,8 +100,13 @@
             encontraras una excusa.
         </pre>
         <div class="social-net">
-
+            <div class="subclass">
+                <i id="fc-icon"><img src="img/icons/facebook.svg" alt="fc-icon"></i>
+                <i id="wp-icon"><img src="img/icons/whatsapp.svg" alt="wp-icon"></i>
+                <i id="tw-icon"><img src="img/icons/twitter.svg" alt="tw-icon"></i>
+            </div>
         </div>
     </section>
 </body>
+<script src="JS/app.js"></script>
 </html>
